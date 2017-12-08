@@ -11,27 +11,55 @@
   align-items: center;
 
 }
-
 .logo {
   color: MediumAquamarine;
   display: flex;
   align-items: center;
   width: 100%;
-
 }
-
 .header img {
   display: inline-flex;
   margin-right: 12px;
 }
-
 nav {
   display: flex;
   padding-right: 40px;
 }
-
 nav span {
   display: inline-block;
   text-decoration: underline;
   padding: 20px 10px;
+}
+
+
+.maincontainer {
+  position: relative;
+  display: flex;
+  top: 100px;
+  border: 1px solid black;
+  width: 100%;
+  height: 1000px;
+}
+
+.columnlarge{
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+  height: 500px;
+  margin: 40px 25px 40px 0px
+
+}
+.columnmedium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+  height: 500px;
+  margin: 40px 25px 40px 0px
+}
+.columnsmall {
+  dispaly: flex;
+  width: 240px;
+  border: 1px solid black;
+  height: 500px;
+  margin: 40px 25px 40px 0px
 }
