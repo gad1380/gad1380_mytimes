@@ -6,15 +6,19 @@
   border-bottom: 1px solid black;
   padding: 10px;
   position: fixed;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 80px;
   align-items: center;
-
+  background-color: white;
+  z-index: 10;
 }
 .logo {
   color: MediumAquamarine;
   display: flex;
   align-items: center;
+  border: 1px solid black;
   width: 100%;
 }
 .header img {
@@ -35,31 +39,94 @@ nav span {
 .maincontainer {
   position: relative;
   display: flex;
+  justify-content: center;
   top: 100px;
   border: 1px solid black;
-  width: 100%;
-  height: 1000px;
+  width: auto;
 }
+
+.maincontainer p {
+  display: inline-block;
+  font-family; Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.maincontainer span {
+  display: inline-flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+
 
 .columnlarge{
   display: flex;
   width: 630px;
   border: 1px solid black;
-  height: 500px;
-  margin: 40px 25px 40px 0px
-
+  margin: 40px 25px 0px 0px;
+  flex-direction: column;
 }
 .columnmedium {
   display: flex;
   width: 300px;
   border: 1px solid black;
-  height: 500px;
-  margin: 40px 25px 40px 0px
+  margin: 40px 25px 0px 0px;
+  flex-direction: column;
 }
 .columnsmall {
   dispaly: flex;
   width: 240px;
+  border: 1px solid black;;
+  margin: 40px 25px 0px 0px;
+  flex-direction: column;
+}
+.content1 {
+  width: 630px;
   border: 1px solid black;
-  height: 500px;
-  margin: 40px 25px 40px 0px
+  display: inline-flex;
+  flex-direction: column;
+}
+#drinks {
+  background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-main.png");
+  height: 300px;
+  display: flex;
+  font-size: 50px;
+}
+#girl {
+  background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-2.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+#camera {
+  background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-3.png");
+  height: 300px;
+  display: flex;
+}
+
+
+.content2 {
+  width: 300px;
+  border: 1px solid black;
+  display: inline-flex;
+  flex-direction: column;
+}
+#cats {
+  background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-1.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.content3 {
+  width: 240px;
+  border: 1px solid black;
+  display: inline-flex;
+  flex-direction: column;
 }
