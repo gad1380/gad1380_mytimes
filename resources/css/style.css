@@ -18,7 +18,6 @@
   color: MediumAquamarine;
   display: flex;
   align-items: center;
-  border: 1px solid black;
   width: 100%;
 }
 .header img {
@@ -41,8 +40,8 @@ nav span {
   display: flex;
   justify-content: center;
   top: 100px;
-  border: 1px solid black;
   width: auto;
+  height: 1200px;
 }
 
 .maincontainer p {
@@ -56,40 +55,53 @@ nav span {
   display: inline-flex;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
   color: white;
+  align-items: center;
   text-align: center;
 }
-
-
 
 .columnlarge{
   display: flex;
   width: 630px;
-  border: 1px solid black;
   margin: 40px 25px 0px 0px;
   flex-direction: column;
 }
 .columnmedium {
   display: flex;
   width: 300px;
-  border: 1px solid black;
   margin: 40px 25px 0px 0px;
   flex-direction: column;
 }
 .columnsmall {
-  dispaly: flex;
+  display: flex;
   width: 240px;
-  border: 1px solid black;;
   margin: 40px 25px 0px 0px;
   flex-direction: column;
 }
-.content1 {
-  width: 630px;
-  border: 1px solid black;
-  display: inline-flex;
+
+.mainstory {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.imagecontent{
+  display: flex;
+  height: 300px;
+}
+.narrative {
+  display: flex;
   flex-direction: column;
 }
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 #drinks {
   background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-main.png");
   height: 300px;
@@ -100,33 +112,79 @@ nav span {
   background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-2.png");
   height: 300px;
   display: flex;
-  align-items: center;
+  font-size: 30px;
+  text-align: center;
 }
 #camera {
   background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-3.png");
   height: 300px;
   display: flex;
+  font-size: 30px;
+  text-align: center;
 }
 
 
-.content2 {
-  width: 300px;
-  border: 1px solid black;
-  display: inline-flex;
-  flex-direction: column;
-}
 #cats {
   background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-1.png");
   height: 300px;
   display: flex;
-  align-items: center;
+  font-size: 30px;
+  text-align: center;
 }
 
+.newsbites h2 {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
 
+#bite {
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+}
 
-.content3 {
-  width: 240px;
-  border: 1px solid black;
-  display: inline-flex;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
   flex-direction: column;
+}
+
+.footerinfo{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+#title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding-right: 20px;
+  border-right: 2px solid white;
+  height: auto;
+}
+
+#footernav {
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,0 +1,149 @@
+.header {
+  display: flex;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  background-color: white;
+  z-index: 10;
+}
+.logo {
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+}
+.header img {
+  display: inline-flex;
+  margin-right: 12px;
+}
+nav {
+  display: flex;
+  padding-right: 40px;
+}
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+
+.maincontainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  border: 1px solid black;
+  width: auto;
+}
+
+.columnlarge{
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+  margin: 40px 25px 0px 0px;
+  flex-direction: column;
+
+}
+.columnmedium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+  margin: 40px 25px 0px 0px;
+  flex-direction: column;
+}
+.columnsmall {
+  dispaly: flex;
+  width: 240px;
+  border: 1px solid black;;
+  margin: 40px 25px 0px 0px;
+  flex-direction: column;
+}
+
+.content1 {
+  width: 630px;
+  border: 1px solid black;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.content1 span {
+  display: inline-flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.content1 p {
+  display: inline-block;
+  font-family; Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+
+#drinks {
+  background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-main.png");
+  height: 300px;
+  display: flex;
+}
+
+#girl {
+  background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-2.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+#camera {
+  background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-3.png");
+  height: 300px;
+  display: flex;
+}
+
+
+.content2 {
+  width: 300px;
+  border: 1px solid black;
+  display: inline-flex;
+  flex-direction: column;
+}
+.content2 span {
+  display: inline-block;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.content2 p {
+  display: inline-block;
+  font-family; Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#cats {
+  background-image: url("/Users/GavinAdee/Documents/github/mytimes/resources/images/img-story-1.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+
+.content3 {
+  width: 240px;
+  border: 1px solid black;
+  display: inline-flex;
+  flex-direction: column;
+}
+.content3 p {
+  display: inline-block;
+}
